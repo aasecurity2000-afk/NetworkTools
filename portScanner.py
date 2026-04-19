@@ -19,7 +19,7 @@ def scan(target,port):
     try:
         global open_ports,closed_ports
         s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        s.settimeout(1)
+        s.settimeout(2)
         result =s.connect_ex((target,port))
         
         with print_lock:

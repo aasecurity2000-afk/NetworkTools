@@ -106,7 +106,7 @@ while True:
 
     # 3. Wait for 'r' to restart or 'q' to exit
     while True:
-        choice = input(Fore.YELLOW + "\n[?] Press 'r' to restart or 'q' to exit: ").lower()
+        choice = input(Fore.CYAN + "\n[?] Press 'r' to restart or 'q' to exit: ").lower()
         if choice == 'r':
             print("\n" * 2) # Clear space for new scan
             break 

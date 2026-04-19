@@ -111,7 +111,7 @@ while True:
             print("\n" * 2) # Clear space for new scan
             break 
         elif choice == 'q':
-            print(Fore.YELLOW + "Exiting... Goodbye!")
+            print(Fore.CYAN + "Exiting... Goodbye!")
             exit()
         else:
-            print(Fore.RED + "Invalid choice! Please press 'r' or 'q'.")
+            print(Fore.RED+ "Invalid choice! Please press 'r' or 'q'.")

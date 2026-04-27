@@ -9,7 +9,7 @@ def is_valid_domain(domain):
     pattern = r"^(?!-)[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)+$"
     return re.match(pattern, domain) is not None
 
-# ================= CLEAN DOMAIN =================
+# ================= CLEAN DOMAIN ================
 def clean_domain(domain):
     domain = domain.strip()
     domain = re.sub(r"^https?://", "", domain)  # remove http/https
